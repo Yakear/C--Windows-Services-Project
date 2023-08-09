@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\yekta\\OneDrive\\Masaüstü\\WindowsServiceInstallerRelease\\WindowsServiceInstaller\\WindowsServiceInstaller\\WindowsServiceInstaller.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\yekta\\OneDrive\\Masaüstü\\WindowsServiceInstallerRelease\\WindowsServiceInstaller\\WindowsServiceInstaller\\WindowsServiceInstaller.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yekta\\OneDrive\\Masaüstü\\WindowsServiceInstallerRelease\\WindowsServiceInstaller\\WindowsServiceInstaller\\WindowsServiceInstaller.csproj",
+        "projectName": "WindowsServiceInstaller",
+        "projectPath": "C:\\Users\\yekta\\OneDrive\\Masaüstü\\WindowsServiceInstallerRelease\\WindowsServiceInstaller\\WindowsServiceInstaller\\WindowsServiceInstaller.csproj",
+        "packagesPath": "C:\\Users\\yekta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yekta\\OneDrive\\Masaüstü\\WindowsServiceInstallerRelease\\WindowsServiceInstaller\\WindowsServiceInstaller\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yekta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Core.System.Configuration.Install": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Core.System.ServiceProcess": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.ServiceProcess.ServiceController": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "WindowsAPICodePack-Core": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "WindowsAPICodePack-Shell": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

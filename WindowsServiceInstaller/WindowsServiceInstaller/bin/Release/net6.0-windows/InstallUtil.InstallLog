@@ -1,0 +1,24 @@
+﻿
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\Talha\Desktop\services\scp.host\abc.exe assembly's progress.
+The file is located at C:\Users\Talha\Desktop\services\scp.host\abc.InstallLog.
+
+An exception occurred during the Install phase.
+System.InvalidOperationException: Unable to get installer types in the C:\Users\Talha\Desktop\services\scp.host\abc.exe assembly.
+The inner exception System.Reflection.ReflectionTypeLoadException was thrown with the following error message: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.Configuration.Install, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Sistem belirtilen dosyayı bulamıyor..
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the C:\Users\Talha\Desktop\services\scp.host\abc.exe assembly's progress.
+The file is located at C:\Users\Talha\Desktop\services\scp.host\abc.InstallLog.
+An exception occurred during the Rollback phase of the System.Configuration.Install.AssemblyInstaller installer.
+System.InvalidOperationException: Unable to get installer types in the C:\Users\Talha\Desktop\services\scp.host\abc.exe assembly.
+The inner exception System.Reflection.ReflectionTypeLoadException was thrown with the following error message: Unable to load one or more of the requested types.
+Could not load file or assembly 'System.Configuration.Install, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Sistem belirtilen dosyayı bulamıyor..
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.
